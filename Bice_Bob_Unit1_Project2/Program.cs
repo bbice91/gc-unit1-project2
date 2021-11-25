@@ -48,6 +48,11 @@ namespace ChatBot
 
                     continue;
 
+
+                if (Console.ReadLine() == "bye")
+                {
+                    return;
+                }
             }
 
         }
